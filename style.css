@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    background-image: url(./banana.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav {
+    height: 50px;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav img {
+    height: 36px;
+    width: 36px;
+}
+
+section:first-of-type {
+    margin-top: 370px
+}
+
+section > div > div  {
+    width:;
+}
+section > div {
+    background-color: antiquewhite;
+    color: black;
+}
+
+div.cards {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    background-color: antiquewhite;
+}
+
+.left {
+    flex-direction: row-reverse;
+}
+
+center h1 {
+    margin: 20px;
+}
+
+div.card {
+    width: 65%;
+    padding: 20px;
+    color: black;
+}
+
+div.cards div.img {
+    width: calc(40%);
+    padding: 20px;
+}
+
+div.cards div.img img {
+    width: calc(40vw - 40px);
+}
